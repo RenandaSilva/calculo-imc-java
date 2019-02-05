@@ -10,8 +10,16 @@ import java.text.DecimalFormat;
 
 public class Imc {
     
+    /**
+     * Calcula IMC
+     */
+    
     public double calcular(double peso, double altura){
         return  peso / (altura * altura);
+        
+    /**
+     * Retorna a situação do IMC
+     */
     }
             
 }
